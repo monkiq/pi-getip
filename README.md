@@ -17,10 +17,8 @@
 5. `cnpm install koa2 koa2-router koa-bodyparser koa2-cors ssh2-utils`
 6. `apt install supervisor nginx-light python`
 7. `./deploy.sh`
-8. 
 ------
 
 ## 结果
 
-![此处输入图片的描述][1]
-  [1]: https://s2.ax1x.com/2019/04/09/AIqa0f.png
+![example1](https://s2.ax1x.com/2019/04/11/AHAxET.png)
