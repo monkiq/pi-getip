@@ -31,9 +31,7 @@ class Refresh extends React.Component {
     this.getData();
   }
   getData(){
-    fetch('http://192.168.6.80:5000',{
-      method: 'GET',
-    }).then(response => response.json())
+    fetch('http://192.168.6.80:5000/ip').then(response => response.json())
     .then(data =>{
       console.log(data);
       this.setState({ ip: data });
